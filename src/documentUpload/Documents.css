@@ -1,0 +1,18 @@
+@media (max-width:767px){
+    .header{
+      color: black;
+      margin-top:15px ;
+      margin-right: 15%;
+    }
+    .award-icon{
+        margin-left: 30%!important;
+        font-size: 130%!important;
+    }
+    .form-upload{
+        margin-top: 10%;
+    }
+    .award-1{
+        margin-top: 1%!important;
+    }
+  
+}

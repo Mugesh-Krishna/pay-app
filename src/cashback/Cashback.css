@@ -1,0 +1,212 @@
+/* App.css */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px; /* Optional: set a max-width */
+    margin: 0 auto;   /* Center the container */
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .label {
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #333;
+    
+  }
+  .label-input{
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #898989;
+  }
+  
+  .select-wrapper {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+  }
+  
+  .selector1 {
+    font-size: 14px!important;  /* Increased font size */
+    padding: 16px;    /* Increased padding to match the new font size */
+    padding-right: 32px; /* Space for the dropdown icon */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+   
+    box-sizing: border-box;
+    background-color: #e9edf1; /* Set to the background color seen in the screenshot */
+    color: #666; /* Set text color to match the screenshot */
+    -webkit-appearance: none;  /* Remove default styling for select */
+    -moz-appearance: none;     /* Remove default styling for select */
+    appearance: none;          /* Remove default styling for select */
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24"><path fill="%23666" d="M7 10l5 5 5-5z"/></svg>'); /* Custom dropdown arrow */
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 20px;
+  }
+  .selector {
+    font-size: 14px!important;  /* Increased font size */
+    padding: 16px;    /* Increased padding to match the new font size */
+    padding-right: 32px; /* Space for the dropdown icon */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    color: #898989;
+    box-sizing: border-box;
+    background-color: white; /* Set to the background color seen in the screenshot */
+  
+    -webkit-appearance: none;  /* Remove default styling for select */
+    -moz-appearance: none;     /* Remove default styling for select */
+    appearance: none;          /* Remove default styling for select */
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24"><path fill="%23666" d="M7 10l5 5 5-5z"/></svg>'); /* Custom dropdown arrow */
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 20px;
+  }
+  .form-input{
+    font-size: 14px!important;  /* Increased font size */
+    padding: 16px;    /* Increased padding to match the new font size */
+    padding-right: 32px; /* Space for the dropdown icon */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+   
+    box-sizing: border-box;
+    background-color: white; 
+  }
+  .form-date{
+    font-size: 14px; /* Increased font size */
+  padding: 16px; /* Increased padding */
+  padding-right: 32px; /* Space for the dropdown icon */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%!important;
+  box-sizing: border-box;
+  background-color: white;
+  }
+  
+  .selector:disabled {
+    background-color: #e9edf1; /* Match the background color */
+  }
+
+ 
+  
+  /* Mobile-specific styling */
+  @media (max-width: 600px) {
+    .selector1 {
+      font-size: 14px;
+      padding: 8px;
+      padding-right: 30px;
+      width: 90%;
+      margin-left: 5%; 
+      height: 50px;
+      margin-top: 3%; /* Space for the dropdown icon */
+    }
+    .selector {
+        font-size: 14px;
+        padding: 8px;
+        padding-right: 30px;
+        width: 90%;
+        margin-left: 5%; 
+        height: 50px;
+        margin-top: 3%; /* Space for the dropdown icon */
+      }
+      .form-input{
+        font-size: 14px;
+        padding: 8px;
+        padding-right: 30px;
+        width: 90%;
+        margin-left: 5%; 
+        height: 50px;
+        margin-top: 1%; 
+      }
+      .form-date{
+        font-size: 14px; /* Increased font size */
+  padding: 16px; /* Increased padding */
+  padding-right: 32px; /* Space for the dropdown icon */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 90%!important;
+  box-sizing: border-box;
+  background-color: white;
+  margin-left: 5%;
+  height: 50px;
+      }
+      .form-radio{
+        width: 90%!important;
+        margin-left: 5%;
+        max-width: 100%;
+      }
+    
+  .radio{
+    margin-right: 3%;
+ 
+  }
+  
+  
+  .house-radio{
+    margin-left: 4%;
+  }
+  .form-radio1{
+    margin-left: 2%!important;
+  }
+.form-radioE{
+    margin-left: 0;
+}
+  .house-status{
+    margin-left: 1%;
+  }
+    .label {
+      font-size: 22px;
+      font-weight: bold;
+      margin-left: 5%;
+      margin-top: 8%;
+    }
+    .label-input{
+        font-size: 14px;
+        font-weight: 150;
+        margin-left: 5%;
+        margin-top: 5%;
+        margin-bottom: 3%!important;
+    }
+    .label-end{
+        margin-left: 2%;
+        margin-top: 3%!important;
+        color:#599e8f;
+        font-weight: bold;
+        font-size: 110%;
+
+    }
+    .next-button {
+        background-color:#599e8f;
+        color: white; /* Text color */
+  padding: 10px 20px; /* Padding */
+  border: none; /* No border */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 16px; /* Font size */
+  cursor: pointer; /* Pointer cursor on hover */
+  text-align: center; 
+  margin-right: 5%; 
+  width: 30%;
+  font-size: 22px;
+  margin-top: 10%;
+  margin-bottom: 10%;/* Optional: Adds rounded corners to the button */
+      }
+      
+      .next-button:hover {
+        background-color: darkgreen; /* Optional: Darkens the button on hover */
+      }
+      .button-container {
+        display: flex;
+        justify-content: flex-end; /* Aligns the button to the right */
+        margin-top: -2%;
+        height: 20%;
+      }
+ 
+ 
+      
+  }
+  

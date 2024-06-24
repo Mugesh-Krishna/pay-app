@@ -1,0 +1,193 @@
+//Sidebar Settings
+
+$sidebarIconFont: 15px;
+$sidebarIconSize: 32px;
+$globalTransitions: 0.3s ease;
+$globalMargin: 20px; // Define the global margin variable
+
+.list-menu-large {
+    padding-bottom: 15px;
+}
+
+.list-menu-large a {
+    border: 0px;
+    line-height: 31px;
+}
+
+.list-menu-large a div {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    padding-left: 20px;
+    font-weight: 600;
+    color: #000;
+    letter-spacing: -0.6px;
+}
+
+.list-menu-large a i:first-child {
+    text-align: center !important;
+    padding: 0px !important;
+    width: 30px !important;
+    height: 30px !important;
+    line-height: 30px !important;
+    border-radius: 12px;
+    font-size: 13px;
+}
+
+.list-menu-small {
+    padding-bottom: 15px;
+    margin-left: -5px;
+}
+
+.list-menu-small a {
+    border: 0px;
+    height: 36px;
+}
+
+.list-menu-small a div {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    padding-left: 10px;
+    font-weight: 600;
+    color: #000;
+    letter-spacing: -0.6px;
+}
+
+.list-menu-small a i:first-child {
+    text-align: center;
+    padding: 0px !important;
+    width: 34px !important;
+    height: 25px !important;
+    line-height: 27px !important;
+}
+
+.list-menu-small a i:last-child,
+.list-menu-large a i:last-child {
+    width: 20px;
+    text-align: center;
+}
+
+/* Scaling Animation */
+@keyframes activeAnimation {
+    0% { transform: scale(1, 1); }
+    50% { transform: scale(1.1, 1.1); }
+    0% { transform: scale(1, 1); }
+}
+
+.list-menu-large .list-group-item-active i:first-child {
+    animation: activeAnimation 1.1s;
+    animation-iteration-count: infinite;
+}
+
+.list-menu-large .list-group-item-active i:last-child:after {
+    content: '\25CF';
+    font-style: normal;
+    position: absolute;
+    font-size: 20px;
+    height: 50px;
+    top: 1px;
+    right: 3px;
+    line-height: 26px;
+    color: #78a943;
+}
+
+.list-menu-large .list-submenu .list-group-item i:last-child:after {
+    top: -2px;
+}
+
+// Submenu 
+.list-group-item i { transition: $globalTransitions; }
+.list-submenu { height: 0px; overflow: hidden; transition: $globalTransitions; }
+.list-group-item.submenu-active i:last-child { color: red; transform: translateY(-50%) rotate(45deg); }
+.list-submenu a:first-child { padding-top: $globalMargin / 3 !important; }
+.list-submenu a:last-child { padding-bottom: $globalMargin / 3 !important; }
+
+.list-submenu a * { line-height: 25px; }
+.list-submenu div { padding-left: 5px !important; }
+
+// Dark Settings
+.theme-dark .list-menu-small div,
+.theme-dark .list-menu-large div {
+    color: #FFF !important;
+}
+@media screen and (max-width: 767px) {
+    .list-group-item {
+        display: block;
+        padding: 1.5%;
+    }
+
+    .list-group-item div {
+        margin-left: 10%; /* Indent text to accommodate icon */
+    }
+
+    .list-group-item i {
+        display: block;
+        float: left;
+        margin-right: 0%;
+        margin-left: 10%;
+        
+    }
+    .bi.bg-green-dark.shadow-bg.shadow-bg-xs.bi-star-fill {
+        margin-left: 3%; /* Adjust margin-left as needed */
+    } 
+    .bi.bg-red-dark.shadow-bg.shadow-bg-xs.bi-heart-fill {
+        margin-left:3%; /* Adjust margin-left as needed */
+    }
+    .bi.bg-blue-dark.shadow-bg.shadow-bg-xs.bi-house-fill {
+        margin-left:3%;  /* Adjust margin-left as needed */
+    }
+    .bi.bg-brown-dark.shadow-bg.shadow-bg-xs.bi-gear-wide-connected {
+        margin-left:3%; /* Adjust margin-left as needed */
+    }
+    .bi.bg-magenta-dark.shadow-bg.shadow-bg-xs.bi-droplet {
+        margin-left:3%; /* Adjust margin-left as needed */
+    }
+    .bi.bg-yellow-dark.shadow-bg.shadow-bg-xs.bi-lightbulb-fill {
+        margin-left:3%;
+        font-size: 100; /* Adjust margin-left as needed */
+    }
+   
+
+    .list-submenu .list-group-item div {
+        margin-left: 14%; /* Indent submenu text */
+    }
+
+    .list-submenu .list-group-item i {
+        margin-left: 10%; /* Adjust submenu icon position */
+    }
+    .mobile-margin-left {
+        margin-left: 30%; /* Adjust the value as needed */
+    }
+    .whole-left{
+        margin-left: -3%;
+    }
+    .side-header{
+        margin-top: -7%;
+    }
+    .side-option{
+        margin-left: -30%;
+    }
+ .bi-chevron-right{
+    margin-left: 150px!important;
+ }
+ .home-style{
+    margin-left: 150px!important;
+ }
+   .all-icon{
+    margin-left: -10px!important;
+   }
+   .all-heading{
+    margin-left: -5px!important;
+   }
+   .footer-icon{
+    margin-left: 160px!important;
+   }
+   .list-group-item{
+    margin-top: 10px!important;
+   }
+   .custom-control-label {
+    margin-left: -20px!important;
+   }
+   .header-welcome{
+    margin-left: -30px!important;
+   }
+}

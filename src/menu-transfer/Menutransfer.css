@@ -1,0 +1,42 @@
+.menu-size{
+    margin-left: 200px;
+}
+
+@media (max-width: 767px){
+ .bi-code-square{
+    margin-left: 10%!important;
+ }
+ .custom-select {
+    padding-left: 20px!important; /* Adjust the value as needed */
+}
+.custom-select-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.custom-select-container i {
+    position: absolute;
+    left: 10px;
+    pointer-events: none;
+}
+.custom-select {
+    padding-left: 35px; /* Adjust to accommodate the icon */
+}
+.account{
+    margin-top: 10%i!important;
+}
+.menu-size{
+    margin-left: 0%!important;
+}
+.bi-x{
+    margin-left: 90%!important;
+}
+.form-check-label{
+    margin-left: -5%!important;
+}
+.form-check-label {
+    max-width: 400px!important;
+    margin-left: -7%!important; /* Adjust the maximum width as needed */
+    /* You can also add other styles as needed */
+}
+}

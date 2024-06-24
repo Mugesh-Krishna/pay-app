@@ -1,0 +1,261 @@
+
+
+
+
+
+@media (max-width: 767px) {
+   .icon-margin{
+    margin-left: 30%;
+   }
+   .margin-top-em {
+    /* Margin for mobile devices */
+    margin-bottom:50%; /* Adjust as needed */
+}
+#footer-bar i {
+    margin-left: 36%; /* Adjust margin as needed */
+}
+.mobile-margin-top {
+    margin-top: 30%; /* Adjust the value as needed */
+}
+.middel-icon {
+    margin-left: 25%; /* Adjust the margin-left value as needed */
+}
+/* .d-flex{
+    display: block!important;
+    margin-top: 30%;
+}
+.quick{
+    margin-left: 30%;
+} */
+.quick{
+    margin-left: 30%;
+  
+}
+.quicker{
+    
+    margin-top: 50%;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.quick-action1, .quick-action2, .quick-action3, .quick-action4 {
+    margin-left: 5px;  /* Adjust the value for the desired horizontal gap */
+    margin-right: 52px; /* Adjust the value for the desired horizontal gap */
+}
+.recent  {
+    margin-left: 5%; /* Adjust the value as needed */
+}
+.recent .ms-auto a {
+    margin-left: 120px; /* Adjust the value as needed */
+}
+.market-icon{
+    margin-left: 35%;
+}
+
+.card.card-style.market-update .ms-auto.text-end {
+    margin-left: 25%!important; /* Adjust the value as needed */
+}
+.custom-card-width {
+    width: 115%; /* Adjust this value as needed */
+  }
+  .custom-card-width1 {
+    width: 95%; 
+    margin-left: 30%;/* Adjust this value as needed */
+  }
+.splideall{
+    margin-left: 5%;
+}
+.notification-icon{
+    margin-left: 30%;
+    color: black;
+}
+
+.card-icon{
+    margin-left: 20%;
+}
+.activity{
+    margin-left: 5%;
+}
+.view-activity{
+    margin-left: 60%;
+}
+
+  
+  .activity .ms-auto {
+    margin-left: 40px; /* Adjust the value to increase/decrease the gap */
+  }
+  .transcation{
+    margin-left: 5%;
+  }
+  .card-style1{
+    position: relative;
+    width: 100%;
+    border-radius: 0%;
+   /* Adjust the width as needed */
+  }
+  .image-splider{
+    margin-left: -10%; 
+  }
+  .offcanvas {
+    position: fixed;
+    top: -100%; /* Position it off the top of the screen */
+    left: 10%; /* Keep it centered horizontally */
+    transform: translateX(-50%); /* Adjust for horizontal centering */
+    width: 85%;
+    max-width: 500px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    padding: 16px;
+    height: auto; /* Ensure height adjusts based on content */
+    max-height: 40%; /* Set a maximum height to reduce overall height */
+    overflow-y: auto;
+    transition: top 0.3s ease; /* Add transition for smooth animation */
+  }
+  
+  
+  .offcanvas.show {
+    top: 0; /* Slide in from the top when 'show' class is applied */
+  }
+  
+  
+  
+  .font-16 {
+    font-size: 16px;
+  }
+  
+  .px-4 {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  
+  .py-4 {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+  
+  .mb-0 {
+    margin-bottom: 0;
+  }
+  .activity {
+    flex-direction: row;
+  }
+  .view-all {
+   margin-right: -20px;
+    text-align: right;
+  }
+  .activity {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .activity a {
+    margin-top: 0.5rem;
+    align-self: flex-end;
+    margin-left: 100px;
+  }
+  .transcation a{
+    margin-left: 110px;
+  }
+  .transcation{
+    margin-left: 7%;
+  }
+  .welcome-header{
+    color: white;
+    margin-left: -30%;
+  }
+.welcome-header{
+  margin-left: 0%!important;
+}
+.first-header{
+  margin-right: -10%!important;
+}
+.header-img{
+  margin-left: 10%!important;
+}
+.header-notification {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: -8%!important;
+}
+.dropdown-list{
+/* Adjust as needed */
+  border-radius: 20px;
+  width: 90%;
+}
+.wallet{
+  margin-left: 15%;
+}
+.shortcut-icon{
+  margin-left: -10%!important;
+}
+.bank-card{
+  width: 100%!important;
+}
+.card-width{
+  width: 130%!important;
+}
+.total-card{
+  margin-left: -15%;
+}
+.splide__track {
+display: flex;
+}
+.send-money{
+display: flex;
+flex-direction: row;
+}
+.friend-transcation {
+  margin-left: 0.6%;
+}
+.total-money{
+  margin-left: -13%;
+  margin-top: 2%;
+}
+#header-deco-1, #header-deco-2, #header-deco-3, #header-deco-4 {
+  fill: #4A89DC;
+}
+
+#header-deco-1 {
+  opacity: 0.4;
+}
+
+#header-deco-2 {
+  opacity: 0.5;
+}
+
+#header-deco-3 {
+  opacity: 0.7;
+}
+
+#header-deco-4 {
+  opacity: 1;
+}
+.sidebar {
+  width: 240px; /* adjust the width as needed */
+  border-radius: 40px; /* rounded corners */
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+.all-content{
+  position: relative!important;
+  overflow: hidden!important;
+}
+#header-deco {
+  position: absolute!important;
+
+  z-index: -1!important;
+}
+
+.easy-money {
+  position: relative!important;
+  z-index: 1!important;
+  padding-top: 100px!important; /* Adjust padding as needed to position the buttons */
+}
+.easy-money{
+  margin-top: -20%!important;
+}
+
+
+  }

@@ -1,0 +1,39 @@
+@media only screen and (max-width: 767px) {
+    .bell-icon{
+        margin-left: 30%;
+    }
+    .header{
+      
+        margin-left: -6%!important;
+        margin-top: -10%;
+    }
+    .header .color-theme {
+        margin-left: -2%!important;
+    }
+    .transcation-icon{
+        margin-left: 25%;
+        
+    }
+    .header-icon{
+        margin-right: -10%!important;
+        margin-top: -6%;
+    }
+    .payment-page {
+    background-color: #f8f9fac6; /* Light white background color */
+    padding: 20px; /* Add padding for better spacing */
+}
+.search{
+    width: 100%;
+    margin-left: 0%;
+}
+.account{
+    width: 100%;
+    margin-left: 0%;
+}
+.search-icon{
+    margin-left: 25%;
+}
+.account-icon{
+    margin-left: 25%;
+}
+  }

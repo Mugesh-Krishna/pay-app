@@ -1,0 +1,19 @@
+@media (max-width: 767px) {
+    .bi-person-circle{
+        margin-left: 5%!important;
+    }
+    .form-control::placeholder {
+        text-align: left!important;
+        padding-left: 10%!important; /* Adjust padding as needed */
+    }
+    .bi-code-square{
+        margin-left: 5%!important;
+    }
+    .form-check{
+
+        margin-left: 5%!important;
+    }
+    .condition{
+        margin-left: -6%!important;
+    }
+}

@@ -1,0 +1,20 @@
+@media (max-width: 767px) {
+    .text-end-top{
+        margin-left: 30%!important;
+    }
+    .top-icon{
+        margin-left: 35%;
+    }
+    .ps-1{
+        margin-left: 0%!important;
+    }
+    .align-self-left{
+        margin-left: -5%;
+    }
+    .align-self-right{
+        margin-left: 40%!important;
+    }
+    .last-date{
+        width: 120%!important;
+    }
+}
